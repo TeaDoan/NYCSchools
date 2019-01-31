@@ -8,24 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		B000DBC1220242E1004E8223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBC0220242E1004E8223 /* AppDelegate.swift */; };
-		B000DBC3220242E1004E8223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBC2220242E1004E8223 /* ViewController.swift */; };
-		B000DBC6220242E1004E8223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B000DBC4220242E1004E8223 /* Main.storyboard */; };
 		B000DBC8220242E3004E8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B000DBC7220242E3004E8223 /* Assets.xcassets */; };
 		B000DBCB220242E3004E8223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B000DBC9220242E3004E8223 /* LaunchScreen.storyboard */; };
+		B000DBD322024342004E8223 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBD222024342004E8223 /* Networking.swift */; };
+		B000DBD522025B94004E8223 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBD422025B94004E8223 /* HomeViewController.swift */; };
+		B000DBD722025BA6004E8223 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B000DBD622025BA6004E8223 /* Home.storyboard */; };
+		B000DBD92202630F004E8223 /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBD82202630F004E8223 /* SchoolDetailsViewController.swift */; };
+		B000DBDD2202B3B7004E8223 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBDC2202B3B7004E8223 /* School.swift */; };
+		B000DBE52202B417004E8223 /* _0190130_KellyDoan_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBE42202B417004E8223 /* _0190130_KellyDoan_NYCSchoolsTests.swift */; };
+		B000DBEC2202B5F4004E8223 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000DBDC2202B3B7004E8223 /* School.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B000DBE72202B417004E8223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B000DBB5220242E1004E8223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B000DBBC220242E1004E8223;
+			remoteInfo = "20190130-KellyDoan-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B000DBBD220242E1004E8223 /* 20190130-KellyDoan-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190130-KellyDoan-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B000DBC0220242E1004E8223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B000DBC2220242E1004E8223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B000DBC5220242E1004E8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B000DBC7220242E3004E8223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B000DBCA220242E3004E8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B000DBCC220242E3004E8223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B000DBD222024342004E8223 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B000DBD422025B94004E8223 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B000DBD622025BA6004E8223 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B000DBD82202630F004E8223 /* SchoolDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewController.swift; sourceTree = "<group>"; };
+		B000DBDC2202B3B7004E8223 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		B000DBE22202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190130-KellyDoan-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000DBE42202B417004E8223 /* _0190130_KellyDoan_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190130_KellyDoan_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		B000DBE62202B417004E8223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B000DBBA220242E1004E8223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B000DBDF2202B417004E8223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B000DBBF220242E1004E8223 /* 20190130-KellyDoan-NYCSchools */,
+				B000DBE32202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests */,
 				B000DBBE220242E1004E8223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B000DBBD220242E1004E8223 /* 20190130-KellyDoan-NYCSchools.app */,
+				B000DBE22202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +84,58 @@
 		B000DBBF220242E1004E8223 /* 20190130-KellyDoan-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
-				B000DBC0220242E1004E8223 /* AppDelegate.swift */,
-				B000DBC2220242E1004E8223 /* ViewController.swift */,
-				B000DBC4220242E1004E8223 /* Main.storyboard */,
-				B000DBC7220242E3004E8223 /* Assets.xcassets */,
-				B000DBC9220242E3004E8223 /* LaunchScreen.storyboard */,
-				B000DBCC220242E3004E8223 /* Info.plist */,
+				B0A50F0E2203806B00567C57 /* Controllers */,
+				B0A50F0C2203803D00567C57 /* Views */,
+				B0A50F0D2203805A00567C57 /* Model */,
+				B0A50F0F220380A200567C57 /* Resources */,
 			);
 			path = "20190130-KellyDoan-NYCSchools";
+			sourceTree = "<group>";
+		};
+		B000DBE32202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B000DBE42202B417004E8223 /* _0190130_KellyDoan_NYCSchoolsTests.swift */,
+				B000DBE62202B417004E8223 /* Info.plist */,
+			);
+			path = "20190130-KellyDoan-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		B0A50F0C2203803D00567C57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B000DBD622025BA6004E8223 /* Home.storyboard */,
+				B000DBC9220242E3004E8223 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0A50F0D2203805A00567C57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B000DBD222024342004E8223 /* Networking.swift */,
+				B000DBDC2202B3B7004E8223 /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0A50F0E2203806B00567C57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B000DBD422025B94004E8223 /* HomeViewController.swift */,
+				B000DBD82202630F004E8223 /* SchoolDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A50F0F220380A200567C57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B000DBCC220242E3004E8223 /* Info.plist */,
+				B000DBC0220242E1004E8223 /* AppDelegate.swift */,
+				B000DBC7220242E3004E8223 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +158,24 @@
 			productReference = B000DBBD220242E1004E8223 /* 20190130-KellyDoan-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B000DBE12202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B000DBE92202B417004E8223 /* Build configuration list for PBXNativeTarget "20190130-KellyDoan-NYCSchoolsTests" */;
+			buildPhases = (
+				B000DBDE2202B417004E8223 /* Sources */,
+				B000DBDF2202B417004E8223 /* Frameworks */,
+				B000DBE02202B417004E8223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B000DBE82202B417004E8223 /* PBXTargetDependency */,
+			);
+			name = "20190130-KellyDoan-NYCSchoolsTests";
+			productName = "20190130-KellyDoan-NYCSchoolsTests";
+			productReference = B000DBE22202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +188,10 @@
 				TargetAttributes = {
 					B000DBBC220242E1004E8223 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					B000DBE12202B417004E8223 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B000DBBC220242E1004E8223;
 					};
 				};
 			};
@@ -113,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				B000DBBC220242E1004E8223 /* 20190130-KellyDoan-NYCSchools */,
+				B000DBE12202B417004E8223 /* 20190130-KellyDoan-NYCSchoolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +219,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B000DBD722025BA6004E8223 /* Home.storyboard in Resources */,
 				B000DBCB220242E3004E8223 /* LaunchScreen.storyboard in Resources */,
 				B000DBC8220242E3004E8223 /* Assets.xcassets in Resources */,
-				B000DBC6220242E1004E8223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B000DBE02202B417004E8223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +239,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B000DBC3220242E1004E8223 /* ViewController.swift in Sources */,
+				B000DBD322024342004E8223 /* Networking.swift in Sources */,
 				B000DBC1220242E1004E8223 /* AppDelegate.swift in Sources */,
+				B000DBD522025B94004E8223 /* HomeViewController.swift in Sources */,
+				B000DBDD2202B3B7004E8223 /* School.swift in Sources */,
+				B000DBD92202630F004E8223 /* SchoolDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B000DBDE2202B417004E8223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B000DBE52202B417004E8223 /* _0190130_KellyDoan_NYCSchoolsTests.swift in Sources */,
+				B000DBEC2202B5F4004E8223 /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B000DBC4220242E1004E8223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B000DBC5220242E1004E8223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		B000DBE82202B417004E8223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B000DBBC220242E1004E8223 /* 20190130-KellyDoan-NYCSchools */;
+			targetProxy = B000DBE72202B417004E8223 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		B000DBC9220242E3004E8223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7CCUH8W47;
 				INFOPLIST_FILE = "20190130-KellyDoan-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7CCUH8W47;
 				INFOPLIST_FILE = "20190130-KellyDoan-NYCSchools/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +429,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B000DBEA2202B417004E8223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7CCUH8W47;
+				INFOPLIST_FILE = "20190130-KellyDoan-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teadoan.-0190130-KellyDoan-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190130-KellyDoan-NYCSchools.app/20190130-KellyDoan-NYCSchools";
+			};
+			name = Debug;
+		};
+		B000DBEB2202B417004E8223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7CCUH8W47;
+				INFOPLIST_FILE = "20190130-KellyDoan-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teadoan.-0190130-KellyDoan-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190130-KellyDoan-NYCSchools.app/20190130-KellyDoan-NYCSchools";
 			};
 			name = Release;
 		};
@@ -331,6 +489,15 @@
 			buildConfigurations = (
 				B000DBD0220242E3004E8223 /* Debug */,
 				B000DBD1220242E3004E8223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B000DBE92202B417004E8223 /* Build configuration list for PBXNativeTarget "20190130-KellyDoan-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B000DBEA2202B417004E8223 /* Debug */,
+				B000DBEB2202B417004E8223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
